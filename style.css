@@ -1,0 +1,23 @@
+/**
+Theme Name: PC Theme
+Theme URI: #
+Version: 1.0.0
+Author: Sabbir Noyon
+Author URI: #
+Text Domain: sabbir_Noyon
+Description: This is a second testing theme by Sabbir Noyon, who is learning WordPress Theme Development.
+
+*/
+
+img{
+
+    max-width: 4%;
+    border-radius: 50%;   
+}
+
+#header-area{
+  padding:20px 60px; 
+}
+
+
+
