@@ -9,15 +9,17 @@ Description: This is a second testing theme by Sabbir Noyon, who is learning Wor
 
 */
 
-img{
-
-    max-width: 4%;
-    border-radius: 50%;   
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* font-family: "Kaisei Decol", serif;  */
+  font-family: "Oswald", sans-serif; 
+ 
+  
 }
-
-#header-area{
-  padding:20px 60px; 
-}
-
-
+   
+  
+  
 

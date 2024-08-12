@@ -1,0 +1,150 @@
+
+
+    /* header area styles */
+    
+    img{
+    
+      max-width: 60px;
+      border-radius: 50%;   
+  }
+  
+  #header_area{
+    padding:30px 100px; 
+    background-color: rgb(245, 191, 120);
+  }
+  
+  
+  
+  #header_area .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  /* Styling the main navigation menu */
+  #nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  #nav > li {
+    position: relative;
+    margin-right: 20px;
+    
+  }
+  
+  #nav > li > a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: 500;
+    color  : #000000;
+    font-size: 24px;
+    
+  
+  }
+  
+  /* Styling the dropdown menu */
+  #nav li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    z-index: 1000;
+  }
+  
+  
+  
+  #nav li ul li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav li ul li a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+   
+  }
+  
+  #nav li ul li a:hover {
+   
+  color: tomato;
+  }
+  
+  /* Show dropdown on hover */
+  #nav li:hover > ul {
+    display: block;
+    
+  }
+  
+  /* Nested dropdowns */
+  #nav li ul li ul {
+    top: 0;
+    left: 100%;
+    margin-left: 1px;
+    display: none;
+  }
+  
+  #nav li ul li:hover > ul {
+    display: block;
+  
+  }
+  
+
+  
+
+
+/*=========================================
+    Menu Positioning
+==========================================*/
+
+/* Left Menu Position */
+#header_area.left_menu  .col-md-3 {
+  order: 2; 
+  
+  
+}
+
+#header_area.left_menu  .col-md-9 {
+  order: 1; 
+  
+  
+}
+
+
+
+#header_area.left_menu .col-md-9 ul {
+  text-align: left;
+}
+
+/* Center Menu Position */
+
+#header_area.center_menu .row  {
+ flex-direction: column;
+  
+  
+}
+
+#header_area.center_menu .row .col-md-3 {
+  width: 100%; 
+  text-align: center;
+  margin-bottom: 10px;
+  
+  
+}
+
+
+
